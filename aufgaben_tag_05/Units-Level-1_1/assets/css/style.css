@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --img-scale-factor: 0.65;
+}
+
+img:nth-of-type(1){
+    width: calc(400px * var(--img-scale-factor));
+}
+img:nth-of-type(2){
+    width: calc(50% * var(--img-scale-factor));
+}
+img:nth-of-type(3){
+    width: calc(20em * var(--img-scale-factor));
+}
+img:nth-of-type(4){
+    width: calc(40rem * var(--img-scale-factor));
+}
+img:nth-of-type(5){
+    width: calc(35vw * var(--img-scale-factor));
+}
+img:nth-of-type(6){
+    width: calc(75vh * var(--img-scale-factor));
+}

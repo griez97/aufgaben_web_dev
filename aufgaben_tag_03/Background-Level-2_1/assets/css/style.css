@@ -1,0 +1,15 @@
+section{
+    text-align: center;
+    color: white;
+    background-image: url(../img/backgound1.avif);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    background-position: top center;
+}
+
+article{
+    background-image: url(../img/backgound2.avif);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right center; 
+}

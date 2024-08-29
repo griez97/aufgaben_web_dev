@@ -1,0 +1,51 @@
+:root{
+    --bg-image: url(../img/background.jpg)
+}
+
+html{
+    overflow: hidden;
+    height: 100%;   
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    transform-style: preserve-3d;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+h1{
+    color: rgb(250, 235, 215, 0.6);
+    font-size: 6em;
+    margin: 0;
+    position: absolute; top: 25px;
+}
+h2{
+    color: rgb(250, 235, 215, 0.5);
+    font-size: 4em;
+    margin: 0;
+    position: absolute; top: 10rem;
+}
+
+p{
+    color: rgb(250, 235, 215, 0.1);
+    font-size: 2em;
+    margin: 0;
+    position: absolute; top: 15rem;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(73, 136, 207);
+    color: rgb(250, 235, 215);
+    border-radius: 20px;
+    position: absolute; bottom: 15px;
+}

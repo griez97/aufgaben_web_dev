@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: "Shadow";
+    src: url(../font/ShadowsIntoLight-Regular.ttf);
+}
+
+:root{
+    --bg-image: url(../img/background.jpg)
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    font-family: "Shadow";
+    /* background-image: url(../img/background.jpg); */
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+main{
+    padding: 5%;
+}
+
+article{
+    padding: 2%;
+    margin: auto 100px;
+    border-radius: 5rem;
+    text-align: center;
+    line-height: 0.8;
+}
+
+section{
+    background-size: cover;
+    background-position: center;
+    background: rgb(0, 0, 255, 0.5);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px black;
+    padding: 0% 15%;
+}
+
+.headline_second{
+    font-size: 1.5em;
+}

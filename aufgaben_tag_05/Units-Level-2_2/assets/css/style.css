@@ -1,0 +1,25 @@
+html{
+    overflow: hidden;
+    height: 100%;
+    
+}
+
+body{
+    background-image: url(../img/ferrari.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    background-color: rgb(63, 63, 63, 0.5);
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 2em 3em;
+    margin: 2rem auto;
+}

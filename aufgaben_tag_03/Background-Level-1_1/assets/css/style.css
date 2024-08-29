@@ -1,0 +1,14 @@
+section h1{
+    background-color:aquamarine ;
+}
+section p{
+    background-color:antiquewhite ;
+}
+
+article{
+    background-image: url(../img/cody-nottingham-sxVWbsnpt8s-unsplash.jpg);
+/*     height: 500; 
+    max-width: 500;
+    background-repeat; */
+    
+}

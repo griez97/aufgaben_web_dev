@@ -1,0 +1,54 @@
+ul{
+    padding-inline-start: 1.2em;
+}
+
+li{
+    font-size: 0.8em;
+    line-height: 1.5em;
+    list-style: none;
+}
+
+ul.dog {
+    list-style-type: none;
+}
+
+ul.dog li::before{
+    content: "🐕";
+}
+
+ul.cat {
+    list-style-type: none;
+}
+
+ul.cat li::before{
+    content: "🐈";
+}
+
+ul.parrot {
+    list-style-type: none;
+}
+
+ul.parrot li::before{
+    content: "🦜";
+}
+
+ul.snake {
+    list-style-type: none;
+}
+
+ul.snake li::before{
+    content: "🐍";
+}
+
+ul.lizzard {
+    list-style-type: none;
+}
+
+ul.lizzard li::before{
+    content: "🦎";
+}
+
+section{
+    border: 2px solid black;
+    font-size: 2rem;
+}

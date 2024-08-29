@@ -1,0 +1,17 @@
+header{
+    background-color: yellowgreen;
+
+}
+
+header ul{
+    list-style: none;
+
+}
+
+header ul li a{
+    color: blue;
+}
+
+article p a, span{
+    color: red;
+}
