@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-box{
+    display: grid;
+    grid-template-areas:
+    "a a a a"
+    "b b c c"
+    "b b d e";
+    height: 35vh;
+    width: 99%;
+}
+
+div{
+    border-radius: 6px;
+}
+
+.grid-box{
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.red{
+    background-color: red;
+    grid-area: a;
+}
+
+.blue{
+    background-color: blue;
+    grid-area: b;
+}
+
+.green{
+    background-color: green;
+    grid-area: c;
+}
+
+.purple{
+    background-color: purple;
+    grid-area: d;
+}
+
+.purple-nd{
+    background-color: purple;
+    grid-area: e;
+}
