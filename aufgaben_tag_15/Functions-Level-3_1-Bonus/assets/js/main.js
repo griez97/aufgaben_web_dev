@@ -17,3 +17,18 @@ function changeColor4() {
     document.body.style.backgroundColor = "lightblue";
     document.querySelector('h1').style.color = "darkblue";
 }
+
+
+// Mit eine Funktion
+
+/* function changeColors(backgroundColor, textColor) {
+    document.body.style.backgroundColor = backgroundColor;
+    document.querySelector('h1').style.color = textColor;
+}
+
+Dann fur die Bttns
+changeColors("purple", "green");
+changeColors("gold", "darkblue");
+changeColors("orange", "navy");
+changeColors("lightblue", "darkblue");
+ */
