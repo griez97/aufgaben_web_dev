@@ -1,0 +1,407 @@
+@font-face {
+    font-family: "urbanist var-font";
+    src: url("../fonts/Urbanist-VariableFont_wght.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    font-family: "urbanist var-font";
+    font-weight: 400;
+    font-size: 18px;
+    background-color: var(--green99);
+    color: var(--darkGreen15);
+
+}
+
+:root{
+    /* color styles */
+   
+    --white: #fff;
+    /* light green shades */
+    --green70: #CBEA7B;
+    --green85: #E5F5BD;
+    --green95: #F6FBE9;
+    --green99: #FAFDF2;
+    /* dark green shades */
+    --darkGreen15: #1A3129;
+    --darkGreen20: #234338;
+    --darkGreen30: #346454;
+    /* grey shades */
+    --grey30: #4C4C4D;
+    --gray60: #98989A;
+
+}
+ 
+/* ********HEADER WITH NAV******** */
+
+header{
+    background-color: var(--darkGreen15) ;
+    padding: 1%;
+
+}
+.button-container1{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.joinButton{
+    display: flex;
+    border-radius: 10px;
+    width: 55vw;
+    height: 5vh;
+    overflow: hidden;
+    background-color: var(--darkGreen20);
+    color: var(--white);
+    opacity: 0.6;
+}
+.joinButton div{
+    display: flex;
+    align-items: baseline;
+
+}
+
+
+.navigation, footer{
+    display: flex;
+    justify-content: space-between;
+}
+nav a, footer a{
+    color: var(--white);
+    text-decoration: none;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    
+}
+
+.nav-right{
+    width: 34%;
+}
+
+.nav-right button{
+    border-radius: 8px;
+    background-color: var(--green70);
+    padding: 2%;
+}
+
+/* .nav-right{
+    display: flex;
+    justify-content: space-around;
+    } */
+    
+
+    /* ************** HERO SECTION ************* */
+.hero{
+     display: flex;
+     margin-bottom: 20vh;
+}
+    
+.hero h2{
+    font-weight: 500;
+    /* text-decoration: underline var(--green70); */
+    border-bottom: 2px solid var(--green70);
+    margin-bottom: 6%;
+    padding-bottom: 3%;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 4%;
+}
+
+.button-container1{
+    margin-bottom: 4vh;
+    padding-right: 20%;
+}
+.btn-today{
+    border-radius: 5px;
+    border-style: none;
+    background-color: var(--green70) ;
+    padding: 10px 20px;
+}
+
+.btn-demo{
+    border-radius: 5px;
+    border: 2px solid var(--green70);
+    background-color: var(--green95);
+    margin-left: 5%;
+    padding: 4%;
+}
+
+/* .hero-img-box{
+    
+} */
+
+.hero-text{
+   width: 40%;
+   padding: 3%;
+   
+}
+.hero img{
+    width: 100%;
+    height: auto;
+    max-width: 45vw;
+}
+
+.p-lightfont{
+    line-height: 150%;
+    margin-bottom: 6vh;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.happy-clients{
+    display: flex;
+    position: relative;
+
+}
+
+.happy-clients span{
+    color: var(--darkGreen30);
+}
+
+
+.client-img2{
+    position: absolute;
+    top: 1%;
+    left: 8%;
+}
+
+.client-img3{
+    position: absolute;
+    top: 1%;
+    left: 16%;
+}
+
+.happy-clients h4{
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+/*  *************** FEATURE SECTION *************** */
+/* with 6-pack grid container */
+.feature-section{
+    text-align: center;
+}
+.feature-section h3{
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.feature-sixpack{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    justify-items: center;
+    align-items: center; 
+    margin-bottom:14vh;
+}
+
+.feature1, .feature2, .feature3, .feature4, .feature5, .feature6{
+    width: 34vw;
+    border: 1px solid var(--green85);
+    border-radius: 8px;
+    background-color: var(--green95);
+    padding: 20px 20px 0 20px ;
+}
+
+.feature1 p, .feature2 p, .feature3 p, .feature4 p, .feature5 p, .feature6 p{
+    text-align: center;    /* doesn't seem 2 work?! */
+}
+
+.feature-headline{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.feature-headline h4{
+    padding-left: 3%;
+    font-weight: 500;
+}
+
+
+
+.c-test-text{
+    text-align: center;
+    width: 40vw;
+    margin-left: 30%;
+}
+
+.c-test-text h3{
+    font-size: 1.8rem ;
+    margin-bottom: 3% ;
+}
+
+.c-test-text p{
+    padding: 0 5%;
+    text-align: center;
+}
+
+
+/* *****CALORY TEST SECTION / CALCULATION FORM*****  */
+
+form{
+    background-color: var(--green95);
+    border: 1px solid var(--green85);
+    border-radius: 8px;
+    padding: 5%;
+    width: 90%;
+    margin: 2%;
+    /* display: flex; */
+}
+
+h5{
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.inputs-left, .inputs-right{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 8%;
+    margin-right: 10%;
+}
+
+.test-form .input-wrapper input{
+    padding: 3%;
+    border: 1px solid var(--green85);
+    border-radius: 6px;
+    width: 40vw;
+    margin-bottom: 20%;
+}
+
+.gender-choice{
+    width: 50vw;
+    text-align: center;
+    margin-left: 21%;
+   
+   
+}
+
+.gender-choice>p{
+    margin-bottom:20px;
+}
+.radio-wrapper{
+    display: flex;
+   
+    justify-content: space-evenly;
+    
+}
+#female{
+    filter: hue-rotate(250deg) /* changing radio button color to green */
+}
+
+.btn-calculate{
+border-radius: 5px;
+border-style: none;
+background-color: var(--green70) ;
+padding: 10px 20%;
+margin: 5%;
+}
+
+
+
+
+
+
+
+/* ******** CALORY RESULT TABLE ********* */
+/* 
+.calory-table{
+    width: 80vw ;
+    background-color: var(--white);
+    border: 1px solid var(--green85);
+    border-radius: 8px;
+    padding: 3%;
+}
+
+.row-for-text{
+    display: flex;
+    border-bottom: 1px solid #CBEA7B;
+}
+.row-for-results .basal{
+    display: flex;
+}
+
+.row-for-results .total{
+    display: flex;
+}
+ */
+
+
+.calory-table{
+    width: 20vw;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 30rem 1fr 1fr;
+    grid-template-rows: 2rem 3rem 3rem;
+    grid-template-areas: 
+    "one two three"
+    "four five six"
+   "seven eight nine";
+    align-items: center;
+
+ 
+}
+
+.linie{
+    grid-area: one;
+    border-bottom: 1px solid #d7ef9a;
+}
+
+.kcal{
+    grid-area: two;
+    border-bottom: 1px solid #d7ef9a;
+
+}
+
+.kj{
+    grid-area: three;
+    border-bottom: 1px solid #d7ef9a;
+}
+
+.text1 {
+    grid-area: four;
+}
+
+.calories{
+    padding-right: 30px;
+    grid-area: five;
+
+}
+.kilojoules{
+    padding-right: 30px;
+    grid-area: six;
+}
+.text2{
+    grid-area: seven;
+    
+}
+.calories2{
+    grid-area: eight;
+}
+.kilojoules2{
+    grid-area: nine;
+}
+
+
+
+
+
+
+
+
+/* ******** FOOTER ********** */
+
+/* some orders combined with header/nav  */
+footer{
+    background-color: var(--darkGreen15) ;
+    padding: 1%;
+}
