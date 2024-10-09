@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <h1>Movies For You</h1>
+    <h2>The best MovieDB</h2>
+    <form role="search">
+      <search>
+        <!-- input feld fur eingaben und ein search btn -->
+        <label for=""></label>
+        <input type="search" name="" id="inputName">
+        <input type="button" name="" id="searchBtn" value="SEARCH">
+      </search>
+      <div>
+        <!-- 3 btns fur die drei filter -->
+        <input type="button" name="YEAR UP" id="yearUp" value="YEAR UP">
+        <input type="button" name="YEAR DOWN" id="yearDown" value="YEAR DOWN">
+        <input type="button" name="BEST RATE" id="bestRate" value="BEST RATE">
+      </div>
+    </form>
+    <!-- hier boxes for movies -->
+    <div id="app">
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
