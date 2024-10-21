@@ -126,7 +126,7 @@ console.log("%c Enum-TS-Level-2_1", "color: tomato; background: gold;");
 - Definiere ein Enum HtmlError mit folgenden HTML-Error-Codes
 - Das Enum soll sowohl den Fehlernamen als auch den Zahlenwert enthalten
 - Schreibe eine Funktion showHtmlError()
-- Lass dir in der Funktion mit Math.random zufällige Zahlen zwischen 1 - 5 generieren
+- Lass dir in der Funktion mit Math.random zufällige Zahlen zwischen 0 - 5 generieren
 - ist der Wert 0, 1 oder 2 gibt den HtmlError.OK aus
 - ist der Wert 3 gibt HtmlError.Redirect aus
 - ist der Wert 4 gib HtmlError.BadRequest aus
@@ -141,7 +141,7 @@ enum HtmlError {
 }
 
 const showHtmlErrow = () => {
-    const random = Math.floor(Math.random() * 5) + 1;
+    const random = Math.floor(Math.random() * 6);
 
     if(random === 0 || random === 1 || random === 2){
         console.log(HtmlError.OK);
@@ -206,3 +206,24 @@ function createColorButtons() {
 }
 
 createColorButtons();
+
+const section = document.getElementById('section') as HTMLElement;
+
+const sectionElementHeadline = document.createElement('h2');
+const sectionElementAnchor = document.createElement('a');
+
+sectionElementHeadline.textContent = "Welcome to the Paradise";
+sectionElementAnchor.href = "https://www.google.com/";
+sectionElementAnchor.target = "blank";
+sectionElementAnchor.textContent = "Visit the Paradise";
+
+
+section.appendChild(sectionElementHeadline);
+section.appendChild(sectionElementAnchor);
+
+
+const createBtn = document.createElement('button'); 
+
+createBtn.textContent = "Clock me";
+createBtn.setAttribute("class", "button");
+console.log(createBtn);
