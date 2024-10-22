@@ -1,0 +1,32 @@
+<!-- 
+- Lernziel: Clean Code und DRY-Prinzip anwenden
+- Lege eine HTML-Datei mit einem Text-Input und drei Buttons an
+- Die drei Buttons heißen
+    - Zähle Großbuchstaben
+    - Zähle Leerzeichen
+    - Zähle Vokale
+- Beim Klick auf den jeweiligen Button werden
+    - die Anzahl der Großbuchstaben im eingegebenen Text in einem Output-Div ausgegeben
+    - die Anzahl der Leerzeichen  im eingegebenen Text in einem Output-Div ausgegeben
+    - die Anzahl der Vokale (aeiouAEIOU)  im eingegebenen Text in einem Output-Div ausgegeben
+- Achte auf sprechende Variablen- und Funktionsnamen
+- Lagere doppelten Code (soweit sinnvoll und möglich!) in eine Funktion aus
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="text" id="input" />
+        <button id="btnCapitalLetter">Zähle Großbuchstaben</button>
+        <button id="btnSpaces">Zähle Leerzeichen</button>
+        <button id="btnVocals">Zähle Vokale</button>
+        <div id="result"></div>
+
+        <script src="./aufgabe1.ts"></script>
+    </body>
+</html>
