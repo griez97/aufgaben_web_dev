@@ -7,7 +7,12 @@ const resultContainer = document.querySelector("#result") as HTMLDivElement;
 const bigLettersCount = (str: string) => {
     let result = 0;
     for (let i = 0; i < str.length; i += 1) {
-        if (str[i].toUpperCase() === str[i]) {
+        if (
+            (str[i] >= "A" && str[i] <= "Z") ||
+            str[i] === "Ä" ||
+            str[i] === "Ü" ||
+            str[i] === "Ö"
+        ) {
             result++;
         }
     }
